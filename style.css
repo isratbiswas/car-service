@@ -1,0 +1,479 @@
+/* ======= */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-size: cover;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+    background: #141414;
+ 
+    color: #fff;
+}
+.header-area{
+    background-image: url('images/Background.png');
+    background-color: rgb(252, 246, 246);
+    max-width: 100%;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    min-height: 90vh;
+    border-radius: 15px;
+}
+.nav-sub-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.nav-img{
+    margin: 1.4rem;
+    gap: 1.4rem;
+    
+}
+.navbar a{ 
+     display: block;
+     margin: .8rem;
+     font-size: 1.2rem;
+     color: #fff;
+}
+hr {
+    /* height: 1px; */
+    max-width: 100%;
+    color: gray;
+    margin: 2rem;
+    border: .4px solid gray;
+    line-height: .1rem;
+}
+
+.hero-text {
+    max-width: 100%;
+    font-size: .8rem;
+    margin: 1.3rem;
+    line-height: 2.2rem;
+    word-wrap: break-word;
+}
+.btn{
+    margin: 1.5rem;
+    padding: .8rem 1.2rem;
+    border-radius:17px ;
+    outline: none;
+    border: 1px solid gray;
+    font-size: 1.1rem; 
+}
+
+.btn-1{
+    background-color: red;
+    border:1px solid gray;
+    margin-right: 10px;
+    color: #fff;
+}
+.btn-2{
+    border: 2px solid gray;
+    background-color: transparent;
+    color:#fff ;
+}
+
+/* service */
+.service-container{
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-content: center;
+      align-items: center;
+      margin: 7rem;
+}
+
+.service{
+   
+    max-width: 100%;
+    background: #1E1E1E;
+    margin: 1rem;
+    border-radius: 1.5rem;
+}
+.service {
+    max-width: 100%;
+    height: 45vh;
+    position: relative;
+ }
+ .service-text{
+    display: flex;
+    justify-content: space-between;
+    margin:1.4rem ;
+ }
+ .service-1 img{
+    position: absolute;
+    margin-left: 47px;
+    margin-top: -20px;
+ }
+ .service-2 img{
+    position: absolute;
+    margin-left: 47px;
+    margin-top: -20px;
+ }
+ .service-3 img{
+    position: absolute;
+    margin-left: 47px;
+    margin-top: -50px;
+ }
+ .service-4 img{
+    position: absolute;
+    margin-left: 47px;
+    margin-top: 25px;
+ }
+
+ .service-unic img{
+    position: absolute;
+    margin-left:2px;
+    margin-top: -50px;
+ }
+ .service-5 img{
+     position: absolute;
+     margin-left:46px;
+     margin-top: -50px;
+  }
+ .service-text a{ 
+     border-radius:17px ;
+     background: red;
+     width: 68px;
+     height: 28px;
+     margin-top: 5px;
+     color:#fff ;
+     text-align: center;
+     font-size: .9rem; 
+ }
+ .service h4{
+     font-size: 1.8rem;
+     color: #fff;
+     position: absolute;
+     margin-top: 20px;
+     margin-left: 30px;
+ 
+ }
+ .service-unic a{
+     background: black;
+    
+ }
+.service-unic{
+    background: red;
+    max-width: 100%;
+    margin: 2.4rem;
+    border-radius: 1.1rem;
+}
+.service-unic h3{
+   margin-left: 16px;
+   margin-top: 10px;
+   margin-bottom: 8px;
+}
+
+.service h3{
+    margin: 1.3rem;
+    font-size: 1.1rem;
+}
+.service,.service-unic, .btn{
+    padding: .2rem .5rem;
+}
+
+
+/* about-- */
+.about-container{
+    background: #FFFFFF;
+    max-width: 100%;
+    color: black;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    min-height: 90vh;
+    border-radius: 15px;
+
+}
+.about-title {
+   display: flex;
+   justify-content: space-evenly;
+   margin: .7rem;
+}
+.about-title h2{
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+ .about-item{
+    margin: 3rem;
+    position: relative; 
+ }
+.about-btn{
+    padding: .4rem .6rem;
+    border: none;
+    background: #2b2a2a ;
+    border-radius: 2.5rem;
+    color: white;
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 50px;
+}
+.about-item img{
+    margin: .6rem;
+    max-width: 100%; 
+  
+}
+
+.about-item h5{
+    margin-left: 1.6rem;
+    font-size: 1rem;
+}
+
+.about-item h6{
+    font-size: .9rem;
+   margin: 1rem;
+   margin-right: .5rem;
+}
+
+.about-icon{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* justify-content: space-evenly;
+    flex-wrap: wrap;  */
+}
+.about-icon{
+    word-wrap: break-word;
+    font-size: 1.3rem;
+}
+.about-icon h5{
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+.icon-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .8rem;
+    font-size: 1.6rem;
+}
+.icon-item .bar{
+    background: #0077FF;
+    width: 32px;
+    border-radius: 8px;
+    margin: .8rem;
+
+}
+.icon-item  img, i {
+    margin: 1rem; 
+}
+
+.footer-area{
+    background-color: red;
+    max-width: 100%;
+    color: #FFFFFF;
+    margin-top: 3.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 15px;
+}
+.footer-text{
+    margin: 1.3rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.icon{
+    text-align: center;
+    margin: 1.2rem;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:993px){
+    .container{
+        margin-right: 3rem;
+        margin-left: 3rem;
+        margin-bottom: 2rem;
+    }
+    .navbar { 
+        display: flex; 
+   }
+   .navbar a{
+       margin: 2rem;
+        font-size: 1.2rem;
+        color: #fff;
+   }
+   .hero-text {
+    font-size: 3.1rem;
+    margin-top: 5rem;
+    margin-left: 4.7rem;
+    line-height: 5.8rem;
+    word-wrap: break-word;
+  }
+  .hero-btn>.btn{
+    margin-top: 7rem;
+    margin-left: 4.9rem;
+    padding: 1.4rem 4.2rem;
+    border-radius:17px ;
+    outline: none;
+    border: 1px solid gray;
+    font-size: 1.1rem; 
+}
+/* service */
+    .service-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+       align-items: center;         
+  }
+  .service {
+   max-width: 100%;
+   height: 45vh;
+   position: relative;
+}
+.service-text{
+   display: flex;
+   justify-content: space-between;
+   margin:1.4rem ;
+}
+.service-1 img{
+   position: absolute;
+   margin-left: 188px;
+   margin-bottom: 160px;
+}
+.service-2 img{
+   position: absolute;
+   margin-left: 187px;
+   margin-bottom: 50px;
+}
+.service-3 img{
+   position: absolute;
+   margin-left: 186px;
+   margin-bottom: 140px;
+}
+.service-4 img{
+   position: absolute;
+   margin-left: 188px;
+   margin-top: 70px;
+}
+.service-unic img{
+   position: absolute;
+   margin-left: 193px;
+   margin-bottom: 50px;
+}
+.service-5 img{
+    position: absolute;
+    margin-left: 187px;
+    margin-bottom: 70px;
+ }
+.service-text a{ 
+    border-radius:17px ;
+    background: red;
+    width: 68px;
+    height: 28px;
+    margin-top: 25px;
+    color:#fff ;
+    text-align: center;
+    font-size: .9rem; 
+}
+.service h4{
+    font-size: 1.8rem;
+    color: #fff;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 30px;
+
+}
+.service-unic a{
+    background: black;
+   
+}
+
+.service  h3{
+    font-size: 1.4rem;
+}
+
+/*========= about===== */
+
+.about-title {
+    display: flex;
+    margin-top: 3.7rem;
+ }
+.about-title h2 {
+    font-size: 2rem;
+    margin-top: 3.7rem;
+ }
+ .about-title img{
+    margin-top: 2.7rem;
+ }
+ .sub-container{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .about-item h5{
+    font-size: 1.3rem;
+ }
+ .about-item h6{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+ }
+ .about-icon{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .about-icon h5 {
+    font-size: 1.5rem;
+ }
+ .footer-area{
+    display: flex;
+    justify-content: space-evenly;
+   
+ }
+ .footer-text{
+    margin-top: 5rem;
+ }
+ .footer-text h2{
+    font-size: 1.8rem;
+ }
+ .footer-text h4{
+    font-size: 1.5rem;
+ }
+ .footer-text  .btn{
+    padding: 1.2rem 1.9rem;
+ }
+ .footer-icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+
+ }
+
+}
+
+/* tablet */
+ /* @media screen and (min-width:768px) and(max-width:992px){
+    .navbar { 
+        display: flex; 
+   }
+   .service-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+   align-items: center;         
+   background-color: #0077FF;
+   }
+  .service {
+   max-width: 100%;
+   height: 45vh;
+   position: relative;
+}
+  .sub-container{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   background-color: aqua;
+   margin: 1rem;
+ }
+ 
+ .about-icon{
+    display: flex;
+    justify-content: space-evenly;
+ }
+}  */
